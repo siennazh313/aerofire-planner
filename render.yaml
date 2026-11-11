@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: aerofire-portfolio
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/ready
+    envVars:
+      - key: PORT
+        value: "10000"
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"
+      - key: OMP_NUM_THREADS
+        value: "1"

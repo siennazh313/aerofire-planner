@@ -1,0 +1,9 @@
+fastapi==0.162.2
+uvicorn==0.54.0
+httpx==0.28.1
+geopandas>=1.0
+shapely>=2.0
+scipy>=1.14
+pandas>=2.2
+numpy>=2.0
+openpyxl>=3.1

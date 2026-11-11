@@ -1,0 +1,121 @@
+{
+  "version": "public-29cd3ccfb19c",
+  "crs": "EPSG:4526",
+  "web_crs": "EPSG:4326",
+  "candidates": 229,
+  "grids": 1600,
+  "demands": 420,
+  "slots": [
+    "0003",
+    "0306",
+    "0609",
+    "0912",
+    "1215",
+    "1518",
+    "1821",
+    "2124"
+  ],
+  "baseline": {
+    "bases": 12,
+    "drones": 36,
+    "facility_budget": 18.48,
+    "objective": null
+  },
+  "files": [
+    {
+      "path": "boundary.gpkg",
+      "sha256": "f0a57f31f3788a44dee74e8be885ff9fe906672ed5feed113ac37e6c09c20134",
+      "source": "generated-public"
+    },
+    {
+      "path": "buildings.gpkg",
+      "sha256": "a93b33fc53692aa53c1443ec07ef815007843a19ab3985a13293a85ebe9faeda",
+      "source": "generated-public"
+    },
+    {
+      "path": "candidates.gpkg",
+      "sha256": "c1e2a1c05e4ed2f32fac32077a1b7f2adeaa9d50ee184df85c95aeb869618c70",
+      "source": "generated-public"
+    },
+    {
+      "path": "demand_0003.gpkg",
+      "sha256": "ec8d1f2ff48afedb0d21e93d896f3cae26b0e2c4be82fa2caa33f8c864b3caef",
+      "source": "generated-public"
+    },
+    {
+      "path": "demand_0306.gpkg",
+      "sha256": "2f51e30a5f694d4647f138f88d163326a258bee0882144f01c4e81ece8d2ecaf",
+      "source": "generated-public"
+    },
+    {
+      "path": "demand_0609.gpkg",
+      "sha256": "085ed7465e08f67962fbce1194aa3098ea45b3983b77d820fb00a7e48a31a276",
+      "source": "generated-public"
+    },
+    {
+      "path": "demand_0912.gpkg",
+      "sha256": "05940c45cfb00a8d7b5b1fe70b56687f0817adc5e0472ee0bea240a22c6e8e30",
+      "source": "generated-public"
+    },
+    {
+      "path": "demand_1215.gpkg",
+      "sha256": "ddbbba5c9e1b82f17cfb64fb7640566026b49447f24e2292e6c01f8fd4270937",
+      "source": "generated-public"
+    },
+    {
+      "path": "demand_1518.gpkg",
+      "sha256": "8da8b4c085db9b283607d71b44335ea20a246400bcecbc0b3c19349835efeea2",
+      "source": "generated-public"
+    },
+    {
+      "path": "demand_1821.gpkg",
+      "sha256": "e7f39f13220934b60302cc3afb4a4b64a8ecb61c2081aa25ec4e2e76f43a9cd0",
+      "source": "generated-public"
+    },
+    {
+      "path": "demand_2124.gpkg",
+      "sha256": "b2173e0e715be311d844e87659f920c5467225234edf07c03b4fb3466e6670c5",
+      "source": "generated-public"
+    },
+    {
+      "path": "demands.gpkg",
+      "sha256": "f184594874f17867e53eb78bcf0c0e6b543999ec70e1dd273e3412af9b276fea",
+      "source": "generated-public"
+    },
+    {
+      "path": "grid.gpkg",
+      "sha256": "e4a8a73f45a12f5a98d1e7be14ce77deb202cb0aeed17eb11e131898eb55cd65",
+      "source": "generated-public"
+    },
+    {
+      "path": "highrise.gpkg",
+      "sha256": "4c4d9b7fde7500eec5d0481cb721de58346090e94a059eeb56353bd087718aac",
+      "source": "generated-public"
+    },
+    {
+      "path": "historical_bases.gpkg",
+      "sha256": "df40ba87781f3db8f3367c56843ba32ea483c5590964c4392c332a216788c4eb",
+      "source": "generated-public"
+    },
+    {
+      "path": "historical_patrol.gpkg",
+      "sha256": "636a6c8ba337c89056f761e85bdb4b84b1fc8db7004d417f0616c1c9c1f58e3e",
+      "source": "generated-public"
+    },
+    {
+      "path": "historical_rescue.gpkg",
+      "sha256": "fb619d111a98dad9c51ec116369ad0ee47c6d5387f594d99adecf201b6e2479f",
+      "source": "generated-public"
+    },
+    {
+      "path": "restricted.gpkg",
+      "sha256": "0dfc9401b325c0ee6625f39a3b7cea69ac6ce443d2c08d51b2dd87f976853815",
+      "source": "generated-public"
+    }
+  ],
+  "notes": [
+    "公开作品集使用固定种子独立生成的虚拟城区、建筑、需求与风险值。",
+    "不包含研究原始坐标、真实设施布局、火灾记录、原始风险表或Notebook。",
+    "示意需求420个，覆盖与响应仅用于验证算法和交互，不代表真实城市消防结论。"
+  ]
+}

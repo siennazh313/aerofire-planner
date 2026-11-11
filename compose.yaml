@@ -1,0 +1,5 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8765:10000"
